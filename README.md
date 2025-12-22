@@ -15,3 +15,7 @@ This project contains quality assurance documentation and testing artifacts for 
 
 ## Role
 Quality Assurance Engineer
+
+## Test Object
+A publicly accessible static e-commerce website with client-side shopping cart functionality.
+
