@@ -1,5 +1,5 @@
 ## Test Case ID: TC-CART-001
-**Summary:** Menambahkan produk ke keranjang
+**Judul:** Menambahkan produk ke keranjang
 **Prekondisi:** Pengguna berada di halaman daftar produk  
 
 ### Langkah:
@@ -7,12 +7,12 @@
 2. Klik tombol (+) pada salah satu produk
 
 ### Hasil yang Diharapkan:
-Produk berhasil ditambahkan ke keranjang dan jumlah item bertambah.
+Sistem menampilkan pop-up notifikasi bahwa produk berhasil ditambahkan ke keranjang.
 
 
 
 ## Test Case ID: TC-CART-002
-**Summary:** Menambahkan jumlah produk di keranjang
+**Judul:** Menambahkan jumlah produk di keranjang
 **Prekondisi:** Pengguna berada di halaman fitur keranjang  
 
 ### Langkah:
@@ -21,12 +21,12 @@ Produk berhasil ditambahkan ke keranjang dan jumlah item bertambah.
 3. Klik Tombol (+) di dalam tabel Qty
 
 ### Hasil yang Diharapkan:
-Produk berhasil bertambah di keranjang dan jumlah harga berubah.
+Jumlah produk bertambah dan total harga diperbarui sesuai jumlah terbaru.
 
 
 
 ## Test Case ID: TC-CART-003
-**Summary:** Mengurangi jumlah produk di keranjang
+**Judul:** Mengurangi jumlah produk di keranjang
 **Prekondisi:** Pengguna berada di halaman fitur keranjang  
 
 ### Langkah:
@@ -35,12 +35,12 @@ Produk berhasil bertambah di keranjang dan jumlah harga berubah.
 3. Klik Tombol (-) di dalam tabel Qty
 
 ### Hasil yang Diharapkan:
-Produk berhasil berkurang di keranjang dan jumlah harga berubah.
+Jumlah produk berkurang dan total harga diperbarui sesuai perubahan.
 
 
 
 ## Test Case ID: TC-CART-004
-**Summary:** Menghapus produk di keranjang
+**Judul:** Menghapus produk di keranjang
 **Prekondisi:** Pengguna berada di halaman fitur keranjang  
 
 ### Langkah:
@@ -50,3 +50,20 @@ Produk berhasil berkurang di keranjang dan jumlah harga berubah.
 
 ### Hasil yang Diharapkan:
 Produk berhasil dihapus dari keranjang dan total harga diperbarui sesuai item yang tersisa.
+
+
+## Test Case ID: TC-CART-005
+**Judul:** Mengurangi jumlah produk hingga kurang dari 1  
+**Prekondisi:** Produk sudah ditambahkan ke keranjang  
+
+### Langkah:
+1. Buka halaman keranjang
+2. Klik tombol Kurangi (-) secara berulang hingga jumlah produk mencapai 1
+3. Klik tombol Kurangi (-) sekali lagi
+
+### Hasil yang Diharapkan:
+Page akan menampilkan kalimat (Keranjangmu masih kosong. Yuk pilih kue dulu di halaman utama.) 
+
+
+
+
